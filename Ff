@@ -1,0 +1,30 @@
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.M4A1,
+    [2] = {
+        ["id"] = 1,
+        ["charge"] = 0,
+        ["dir"] = Vector3.new(0.014123099856078625, 0.7700660824775696, 0.6378079056739807),
+        ["origin"] = Vector3.new(-331.68646240234375, 190.05067443847656, 176.96609497070312)
+    }
+}
+
+game:GetService("ReplicatedStorage").Eventos:FindFirstChild("4755-4233-1179-7990-3368583"):FireServer(unpack(args))
+
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.M4A1,
+    [2] = {
+        ["p"] = Vector3.new(-331.68499755859375, 190.127685546875, 177.03001403808594),
+        ["pid"] = 1,
+        ["part"] = workspace.Mapa.Adds.Chao,
+        ["d"] = 0.10009247064590454,
+        ["maxDist"] = 0.06393585354089737,
+        ["h"] = workspace.Mapa.Adds.Chao,
+        ["m"] = Enum.Material.Plastic,
+        ["sid"] = 1,
+        ["t"] = 0.002171529944456134,
+        ["n"] = Vector3.new(0, -1, 0)
+    }
+}
+
+game:GetService("ReplicatedStorage").Eventos:FindFirstChild("5321-4608-6033-3948-6667262"):FireServer(unpack(args))
